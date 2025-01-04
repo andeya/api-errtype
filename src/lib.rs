@@ -14,7 +14,7 @@ mod tests {
             } else {
                 "User Error ErrType(1000)"
             },
-            ET1000.to_string()
+            ET_USER.to_string()
         );
     }
 }

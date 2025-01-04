@@ -339,7 +339,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_LOGIN_EXPIRED,
+    ET_USER_LOGIN_EXP,
     T2034,
     "用户登录已过期",
     "User Login Expired",
@@ -403,7 +403,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_AUTHZ_EXPIRED,
+    ET_AUTHZ_EXP,
     T2042,
     "授权已过期",
     "Authorization Expired",
@@ -491,7 +491,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_REQ_PARAMETER,
+    ET_USER_REQ_PARAM,
     T2053,
     "用户请求参数错误",
     "User Request Parameter Error",
@@ -515,7 +515,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_REQ_PARAMETER_EMPTY,
+    ET_REQ_PARAM_EMPTY,
     T2056,
     "请求必填参数为空",
     "Request Required Parameter Is Empty",
@@ -555,7 +555,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PARAM_VALUE_EXCDS_RANGE,
+    ET_PARAM_VAL_EXCD_RANGE,
     T2061,
     "请求参数值超出允许的范围",
     "Request Parameter Value Exceeds Allowed Range",
@@ -563,7 +563,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PARAM_FORMAT_MISMATCH,
+    ET_PARAM_FMT_MISMATCH,
     T2062,
     "参数格式不匹配",
     "Parameter Format Mismatch",
@@ -587,7 +587,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_AMOUNT_EXCDS_LIM,
+    ET_AMOUNT_EXCD_LIM,
     T2065,
     "金额超出限制",
     "Amount Exceeds Limit",
@@ -595,7 +595,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_QUANTITY_EXCDS_LIM,
+    ET_QUANTITY_EXCD_LIM,
     T2066,
     "数量超出限制",
     "Quantity Exceeds Limit",
@@ -603,7 +603,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_BATCH_TOTAL_EXCDS_LIM,
+    ET_BATCH_TOTAL_EXCD_LIM,
     T2067,
     "请求批量处理总个数超出限制",
     "Request Batch Total Exceeds Limit",
@@ -763,7 +763,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_INSUFF_MEMORY,
+    ET_INSUFF_MEM,
     T2087,
     "用户内存空间不足",
     "User Insufficient Memory Space",
@@ -867,7 +867,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VER_EXPIRED,
+    ET_VER_EXP,
     T2100,
     "用户安装版本已过期",
     "User Installed Version Expired",
@@ -1035,7 +1035,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MEMORY_EXH,
+    ET_MEM_EXH,
     T3009,
     "系统内存耗尽",
     "System Memory Exhausted",
@@ -1043,7 +1043,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_FILE_HANDLES_EXH,
+    ET_FD_EXH,
     T3010,
     "文件句柄耗尽",
     "File Handles Exhausted",
@@ -1179,7 +1179,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_KEY_LENGTH_EXCDS_LIM,
+    ET_KEY_LEN_EXCD_LIM,
     T3027,
     "key长度超过限制",
     "Key Length Exceeds Limit",
@@ -1187,7 +1187,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VALUE_LENGTH_EXCDS_LIM,
+    ET_VAL_LEN_EXCD_LIM,
     T3028,
     "value长度超过限制",
     "Value Length Exceeds Limit",
@@ -1203,7 +1203,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_UNSUPPORTED_DATA_FORMAT,
+    ET_UNSUPPORTED_DATA_FMT,
     T3030,
     "不支持的数据格式",
     "Unsupported Data Format",
@@ -1219,7 +1219,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_NETWORK_RES_SERV,
+    ET_NET_RES_SERV,
     T3032,
     "网络资源服务出错",
     "Network Resource Service Error",

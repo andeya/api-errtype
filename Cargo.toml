@@ -1,0 +1,19 @@
+[package]
+name = "api-errtype"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andeya Lee <andeyalee@outlook.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/andeya/api-errtype"
+repository = "https://github.com/andeya/api-errtype"
+documentation = "https://docs.rs/api-errtype"
+keywords = ["api", "http", "rpc", "error"]
+categories = ["web-programming", "data-structures"]
+
+[dependencies]
+api-response = ">=0.16.3"
+
+[features]
+# default = ["chinese_description"]
+chinese_description = []

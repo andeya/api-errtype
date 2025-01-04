@@ -1,6 +1,6 @@
 [package]
 name = "api-errtype"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Andeya Lee <andeyalee@outlook.com>"]
 license = "Apache-2.0"
@@ -8,6 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/andeya/api-errtype"
 repository = "https://github.com/andeya/api-errtype"
 documentation = "https://docs.rs/api-errtype"
+description = "API error code types definition based on api-response"
 keywords = ["api", "http", "rpc", "error"]
 categories = ["web-programming", "data-structures"]
 

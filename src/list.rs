@@ -963,7 +963,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SYSTEM_ERROR,
+    ET_SYS_ERR,
     T3000,
     "系统执行出错",
     "System Execution Error",
@@ -971,7 +971,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SYSTEM_TIMEOUT,
+    ET_SYS_TIMEOUT,
     T3001,
     "系统执行超时",
     "System Execution Timeout",
@@ -1011,7 +1011,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SYSTEM_RES_ANOMALY,
+    ET_SYS_RES_ANOMALY,
     T3006,
     "系统资源异常",
     "System Resource Anomaly",
@@ -1083,7 +1083,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ERROR_CALLING_3P,
+    ET_ERR_CALLING_3P,
     T3015,
     "调用第三方服务出错",
     "Error Calling Third-Party Service",

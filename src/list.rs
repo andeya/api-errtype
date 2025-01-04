@@ -19,7 +19,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_EQUIPMENT,
+    ET_USER_EQPT,
     T1001,
     "用户设备异常",
     "User Equipment Error",
@@ -35,7 +35,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_MICROPHONE,
+    ET_USER_MIC,
     T1003,
     "用户麦克风异常",
     "User Microphone Error",
@@ -67,7 +67,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_BUSINESS_SERVICE,
+    ET_BIZ_SERV,
     T2000,
     "业务服务错误",
     "Business Service Error",
@@ -75,7 +75,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_REGISTRATION,
+    ET_USER_REG,
     T2001,
     "用户注册错误",
     "User Registration Error",
@@ -83,7 +83,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_PRIVACY_POLICY,
+    ET_USER_PRIV_POLICY,
     T2002,
     "用户未同意隐私协议",
     "User Did Not Agree To Privacy Policy",
@@ -91,7 +91,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_REGISTRATION_RESTRICTED,
+    ET_REG_RESTR,
     T2003,
     "注册国家或地区受限",
     "Registration Country or Region Restricted",
@@ -99,7 +99,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USERNAME_VERIFICATION_FAILED,
+    ET_USERNAME_VERIF_FAIL,
     T2004,
     "用户名校验失败",
     "Username Verification Failed",
@@ -115,7 +115,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USERNAME_SENSITIVE_WORDS,
+    ET_USERNAME_SENSITIVE_WD,
     T2006,
     "用户名包含敏感词",
     "Username Contains Sensitive Words",
@@ -123,7 +123,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USERNAME_SPECIAL_CHARACTERS,
+    ET_USERNAME_SPEC_CHARS,
     T2007,
     "用户名包含特殊字符",
     "Username Contains Special Characters",
@@ -131,7 +131,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PASSWORD_VERIFICATION_FAILED,
+    ET_PWD_VERIF_FAIL,
     T2008,
     "密码校验失败",
     "Password Verification Failed",
@@ -139,7 +139,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PASSWORD_TOO_SHORT,
+    ET_PWD_TOO_SHORT,
     T2009,
     "密码长度不够",
     "Password Too Short",
@@ -147,7 +147,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PASSWORD_STRENGTH_INSUFFICIENT,
+    ET_PWD_STRENGTH_INSUFF,
     T2010,
     "密码强度不够",
     "Password Strength Insufficient",
@@ -155,7 +155,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VERIFICATION_CODE,
+    ET_VERIF_CODE,
     T2011,
     "校验码输入错误",
     "Verification Code Error",
@@ -163,7 +163,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SMS_VERIFICATION_CODE,
+    ET_SMS_VERIF_CODE,
     T2012,
     "短信校验码输入错误",
     "SMS Verification Code Error",
@@ -171,7 +171,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_EMAIL_VERIFICATION_CODE,
+    ET_EMAIL_VERIF_CODE,
     T2013,
     "邮件校验码输入错误",
     "Email Verification Code Error",
@@ -179,7 +179,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VOICE_VERIFICATION_CODE,
+    ET_VOICE_VERIF_CODE,
     T2014,
     "语音校验码输入错误",
     "Voice Verification Code Error",
@@ -187,7 +187,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_DOCUMENT,
+    ET_USER_DOC,
     T2015,
     "用户证件异常",
     "User Document Error",
@@ -195,7 +195,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_DOCUMENT_TYPE_NOT_SELECTED,
+    ET_USER_DOC_TYPE_NOT_SEL,
     T2016,
     "用户证件类型未选择",
     "User Document Type Not Selected",
@@ -203,7 +203,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MAINLAND_ID_VERIFICATION_ILLEGAL,
+    ET_MAINLAND_ID_VERIF_ILLEGAL,
     T2017,
     "大陆身份证编号校验非法",
     "Mainland ID Number Verification Illegal",
@@ -211,7 +211,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PASSPORT_VERIFICATION_ILLEGAL,
+    ET_PASSPORT_VERIF_ILLEGAL,
     T2018,
     "护照编号校验非法",
     "Passport Number Verification Illegal",
@@ -219,7 +219,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_OFFICER_ID_VERIFICATION_ILLEGAL,
+    ET_OFFICER_ID_VERIF_ILLEGAL,
     T2019,
     "军官证编号校验非法",
     "Officer ID Number Verification Illegal",
@@ -227,7 +227,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_BASIC_INFO_VERIFICATION_FAILED,
+    ET_USER_BASIC_INFO_VERIF_FAIL,
     T2020,
     "用户基本信息校验失败",
     "User Basic Information Verification Failed",
@@ -235,7 +235,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PHONE_VERIFICATION_FAILED,
+    ET_PHONE_VERIF_FAIL,
     T2021,
     "手机格式校验失败",
     "Phone Format Verification Failed",
@@ -243,7 +243,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ADDRESS_VERIFICATION_FAILED,
+    ET_ADDR_VERIF_FAIL,
     T2022,
     "地址格式校验失败",
     "Address Format Verification Failed",
@@ -251,7 +251,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_EMAIL_VERIFICATION_FAILED,
+    ET_EMAIL_VERIF_FAIL,
     T2023,
     "邮箱格式校验失败",
     "Email Format Verification Failed",
@@ -267,7 +267,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_ACCOUNT_DOES_NOT_EXIST,
+    ET_USER_ACCT_NOT_EXIST,
     T2025,
     "用户账户不存在",
     "User Account Does Not Exist",
@@ -275,7 +275,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_ACCOUNT_FROZEN,
+    ET_USER_ACCT_FROZEN,
     T2026,
     "用户账户被冻结",
     "User Account Frozen",
@@ -283,7 +283,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_ACCOUNT_INVALIDATED,
+    ET_USER_ACCT_INVLD,
     T2027,
     "用户账户已作废",
     "User Account Invalidated",
@@ -291,7 +291,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_PASSWORD,
+    ET_USER_PWD,
     T2028,
     "用户密码错误",
     "User Password Error",
@@ -299,7 +299,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_PASSWORD_LIMIT_EXCEEDED,
+    ET_USER_PWD_LIM_EXC,
     T2029,
     "用户输入密码错误次数超限",
     "User Exceeded Password Error Limit",
@@ -307,7 +307,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_IDENTITY_VERIFICATION_FAILED,
+    ET_USER_IDENT_VERIF_FAIL,
     T2030,
     "用户身份校验失败",
     "User Identity Verification Failed",
@@ -315,7 +315,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_FINGERPRINT_VERIFICATION_FAILED,
+    ET_USER_FP_VERIF_FAIL,
     T2031,
     "用户指纹识别失败",
     "User Fingerprint Verification Failed",
@@ -323,7 +323,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_FACE_RECOGNITION_FAILED,
+    ET_USER_FACE_RECOG_FAIL,
     T2032,
     "用户面容识别失败",
     "User Face Recognition Failed",
@@ -331,7 +331,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THIRD_PARTY_LOGIN_AUTHORIZATION_NOT_OBTAINED,
+    ET_3P_LOGIN_AUTHZ_NOT_OBTAINED,
     T2033,
     "用户未获得第三方登录授权",
     "User Did Not Obtain Third-Party Login Authorization",
@@ -347,7 +347,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_VERIFICATION_CODE,
+    ET_USER_VERIF_CODE,
     T2035,
     "用户验证码错误",
     "User Verification Code Error",
@@ -355,7 +355,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_VERIFICATION_CODE_ATTEMPT_LIMIT_EXCEEDED,
+    ET_USER_VERIF_CODE_ATTEMPT_LIM_EXC,
     T2036,
     "用户验证码尝试次数超限",
     "User Exceeded Verification Code Attempt Limit",
@@ -363,7 +363,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ACCESS_AUTHORIZATION,
+    ET_ACCESS_AUTHZ,
     T2037,
     "访问权限异常",
     "Access Authorization Error",
@@ -371,7 +371,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ACCESS_UNAUTHORIZED,
+    ET_ACCESS_UNAUTHZED,
     T2038,
     "访问未授权",
     "Access Unauthorized",
@@ -379,7 +379,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_AUTHORIZATION_IN_PROGRESS,
+    ET_AUTHZ_IN_PROGRESS,
     T2039,
     "正在授权中",
     "Authorization In Progress",
@@ -387,7 +387,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_AUTHORIZATION_APPLICATION_REJECTED,
+    ET_USER_AUTHZ_APP_REJECTED,
     T2040,
     "用户授权申请被拒绝",
     "User Authorization Application Rejected",
@@ -395,7 +395,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ACCESS_BLOCKED_DUE_TO_PRIVACY_SETTINGS,
+    ET_ACCESS_BLOCKED_DUE_TO_PRIV_SET,
     T2041,
     "因访问对象隐私设置被拦截",
     "Access Blocked Due To Privacy Settings",
@@ -403,7 +403,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_AUTHORIZATION_EXPIRED,
+    ET_AUTHZ_EXPIRED,
     T2042,
     "授权已过期",
     "Authorization Expired",
@@ -411,7 +411,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_NO_PERMISSION_TO_USE_API,
+    ET_NO_PERM_TO_USE_API,
     T2043,
     "无权限使用API",
     "No Permission To Use API",
@@ -435,7 +435,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ACCOUNT_FROZEN,
+    ET_ACCT_FROZEN,
     T2046,
     "账号被冻结",
     "Account Frozen",
@@ -443,7 +443,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ILLEGAL_IP_ADDRESS,
+    ET_ILLEGAL_IP_ADDR,
     T2047,
     "非法IP地址",
     "Illegal IP Address",
@@ -451,7 +451,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_GATEWAY_ACCESS_RESTRICTED,
+    ET_GW_ACCESS_RESTR,
     T2048,
     "网关访问受限",
     "Gateway Access Restricted",
@@ -467,7 +467,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SERVICE_OVERDUE,
+    ET_SERV_OVERDUE,
     T2050,
     "服务已欠费",
     "Service Overdue",
@@ -491,7 +491,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_REQUEST_PARAMETER,
+    ET_USER_REQ_PARAMETER,
     T2053,
     "用户请求参数错误",
     "User Request Parameter Error",
@@ -515,7 +515,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_REQUEST_PARAMETER_EMPTY,
+    ET_REQ_PARAMETER_EMPTY,
     T2056,
     "请求必填参数为空",
     "Request Required Parameter Is Empty",
@@ -539,7 +539,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MISSING_TIMESTAMP_PARAM,
+    ET_MISSING_TS_PARAM,
     T2059,
     "缺少时间戳参数",
     "Missing Timestamp Parameter",
@@ -547,7 +547,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ILLEGAL_TIMESTAMP_PARAM,
+    ET_ILLEGAL_TS_PARAM,
     T2060,
     "非法的时间戳参数",
     "Illegal Timestamp Parameter",
@@ -555,7 +555,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PARAM_VALUE_EXCEEDS_RANGE,
+    ET_PARAM_VALUE_EXCDS_RANGE,
     T2061,
     "请求参数值超出允许的范围",
     "Request Parameter Value Exceeds Allowed Range",
@@ -571,7 +571,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ADDRESS_OUT_OF_SERVICE,
+    ET_ADDR_OUT_OF_SERV,
     T2063,
     "地址不在服务范围",
     "Address Out Of Service Range",
@@ -579,7 +579,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_TIME_OUT_OF_SERVICE,
+    ET_TIME_OUT_OF_SERV,
     T2064,
     "时间不在服务范围",
     "Time Out Of Service Range",
@@ -587,7 +587,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_AMOUNT_EXCEEDS_LIMIT,
+    ET_AMOUNT_EXCDS_LIM,
     T2065,
     "金额超出限制",
     "Amount Exceeds Limit",
@@ -595,7 +595,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_QUANTITY_EXCEEDS_LIMIT,
+    ET_QUANTITY_EXCDS_LIM,
     T2066,
     "数量超出限制",
     "Quantity Exceeds Limit",
@@ -603,7 +603,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_BATCH_TOTAL_EXCEEDS_LIMIT,
+    ET_BATCH_TOTAL_EXCDS_LIM,
     T2067,
     "请求批量处理总个数超出限制",
     "Request Batch Total Exceeds Limit",
@@ -611,7 +611,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_JSON_PARSING_FAILED,
+    ET_JSON_PARSING_FAIL,
     T2068,
     "请求JSON解析失败",
     "Request JSON Parsing Failed",
@@ -627,7 +627,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PROHIBITED_SENSITIVE_WORDS,
+    ET_PROHIB_SENSITIVE_WD,
     T2070,
     "包含违禁敏感词",
     "Contains Prohibited Sensitive Words",
@@ -635,7 +635,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_IMAGE_PROHIBITED_INFO,
+    ET_IMAGE_PROHIB_INFO,
     T2071,
     "图片包含违禁信息",
     "Image Contains Prohibited Information",
@@ -651,7 +651,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_OPERATION_ANOMALY,
+    ET_USER_OP_ANOMALY,
     T2073,
     "用户操作异常",
     "User Operation Anomaly",
@@ -659,7 +659,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_PAYMENT_TIMEOUT,
+    ET_USER_PAY_TIMEOUT,
     T2074,
     "用户支付超时",
     "User Payment Timeout",
@@ -683,7 +683,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_REQUEST_SERVICE_ANOMALY,
+    ET_USER_REQ_SERV_ANOMALY,
     T2077,
     "用户请求服务异常",
     "User Request Service Anomaly",
@@ -691,7 +691,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_REQUEST_FREQUENCY_EXCEEDED,
+    ET_REQ_FREQUENCY_EXCD,
     T2078,
     "请求次数超出限制",
     "Request Frequency Exceeded",
@@ -699,7 +699,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_REQUEST_CONCURRENCY_EXCEEDED,
+    ET_REQ_CONCURRENCY_EXCD,
     T2079,
     "请求并发数超出限制",
     "Request Concurrency Exceeded",
@@ -707,7 +707,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_OPERATION_WAIT,
+    ET_USER_OP_WAIT,
     T2080,
     "用户操作请等待",
     "User Operation Please Wait",
@@ -715,7 +715,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_WEBSOCKET_CONNECTION_ANOMALY,
+    ET_WEBSOCKET_ANOMALY,
     T2081,
     "WebSocket连接异常",
     "WebSocket Connection Anomaly",
@@ -723,7 +723,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_WEBSOCKET_CONNECTION_DISCONNECTED,
+    ET_WEBSOCKET_DISCONN,
     T2082,
     "WebSocket连接断开",
     "WebSocket Connection Disconnected",
@@ -731,7 +731,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_DUPLICATE_REQUEST,
+    ET_USER_DUPLICATE_REQ,
     T2083,
     "用户重复请求",
     "User Duplicate Request",
@@ -739,7 +739,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_USER_RESOURCE_ANOMALY,
+    ET_USER_RES_ANOMALY,
     T2084,
     "用户资源异常",
     "User Resource Anomaly",
@@ -747,7 +747,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_INSUFFICIENT_ACCOUNT_BALANCE,
+    ET_INSUFF_ACCT_BALANCE,
     T2085,
     "账户余额不足",
     "Insufficient Account Balance",
@@ -755,7 +755,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_INSUFFICIENT_DISK_SPACE,
+    ET_INSUFF_DISK_SPACE,
     T2086,
     "用户磁盘空间不足",
     "User Insufficient Disk Space",
@@ -763,7 +763,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_INSUFFICIENT_MEMORY,
+    ET_INSUFF_MEMORY,
     T2087,
     "用户内存空间不足",
     "User Insufficient Memory Space",
@@ -771,7 +771,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_OSS_CAPACITY_INSUFFICIENT,
+    ET_OSS_CAP_INSUFF,
     T2088,
     "用户OSS容量不足",
     "User OSS Capacity Insufficient",
@@ -779,7 +779,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_QUOTA_EXHAUSTED,
+    ET_QUOTA_EXH,
     T2089,
     "用户配额已用光",
     "User Quota Exhausted",
@@ -827,7 +827,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_COMPRESSED_FILE_TOO_LARGE,
+    ET_COMPR_FILE_TOO_LARGE,
     T2095,
     "用户上传压缩文件太大",
     "User Compressed File Upload Too Large",
@@ -835,7 +835,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CURRENT_VERSION_ANOMALY,
+    ET_CURR_VER_ANOMALY,
     T2096,
     "用户当前版本异常",
     "User Current Version Anomaly",
@@ -843,7 +843,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VERSION_INCOMPATIBLE,
+    ET_VER_INCOMP,
     T2097,
     "用户安装版本与系统不匹配",
     "User Installed Version Incompatible With System",
@@ -851,7 +851,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VERSION_TOO_LOW,
+    ET_VER_TOO_LOW,
     T2098,
     "用户安装版本过低",
     "User Installed Version Too Low",
@@ -859,7 +859,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VERSION_TOO_HIGH,
+    ET_VER_TOO_HIGH,
     T2099,
     "用户安装版本过高",
     "User Installed Version Too High",
@@ -867,7 +867,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VERSION_EXPIRED,
+    ET_VER_EXPIRED,
     T2100,
     "用户安装版本已过期",
     "User Installed Version Expired",
@@ -875,7 +875,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_API_VERSION_MISMATCH,
+    ET_API_VER_MISMATCH,
     T2101,
     "用户API请求版本不匹配",
     "User API Request Version Mismatch",
@@ -883,7 +883,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_API_VERSION_TOO_HIGH,
+    ET_API_VER_TOO_HIGH,
     T2102,
     "用户API请求版本过高",
     "User API Request Version Too High",
@@ -891,7 +891,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_API_VERSION_TOO_LOW,
+    ET_API_VER_TOO_LOW,
     T2103,
     "用户API请求版本过低",
     "User API Request Version Too Low",
@@ -899,7 +899,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PRIVACY_NOT_AUTHORIZED,
+    ET_PRIV_NOT_AUTHZED,
     T2104,
     "用户隐私未授权",
     "User Privacy Not Authorized",
@@ -907,7 +907,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PRIVACY_NOT_SIGNED,
+    ET_PRIV_NOT_SIGNED,
     T2105,
     "用户隐私未签署",
     "User Privacy Not Signed",
@@ -915,7 +915,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CAMERA_DEVICE_NOT_AUTHORIZED,
+    ET_CAMERA_DEVICE_NOT_AUTHZED,
     T2106,
     "用户摄像头未授权",
     "User Camera Device Not Authorized",
@@ -923,7 +923,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CAMERA_NOT_AUTHORIZED,
+    ET_CAMERA_NOT_AUTHZED,
     T2107,
     "用户相机未授权",
     "User Camera Not Authorized",
@@ -931,7 +931,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PHOTO_LIBRARY_NOT_AUTHORIZED,
+    ET_PHOTO_LIBRARY_NOT_AUTHZED,
     T2108,
     "用户图片库未授权",
     "User Photo Library Not Authorized",
@@ -939,7 +939,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_FILE_ACCESS_NOT_AUTHORIZED,
+    ET_FILE_ACCESS_NOT_AUTHZED,
     T2109,
     "用户文件未授权",
     "User Files Not Authorized",
@@ -947,7 +947,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_LOCATION_NOT_AUTHORIZED,
+    ET_LOC_NOT_AUTHZED,
     T2110,
     "用户位置信息未授权",
     "User Location Information Not Authorized",
@@ -955,7 +955,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CONTACT_LIST_NOT_AUTHORIZED,
+    ET_CONTACT_LIST_NOT_AUTHZED,
     T2111,
     "用户通讯录未授权",
     "User Contact List Not Authorized",
@@ -979,7 +979,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ORDER_PROCESSING_TIMEOUT,
+    ET_ORDER_PROC_TIMEOUT,
     T3002,
     "系统订单处理超时",
     "System Order Processing Timeout",
@@ -987,7 +987,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DISASTER_RECOVERY_TRIGGERED,
+    ET_DISASTER_RECOV_TRIG,
     T3003,
     "系统容灾功能被触发",
     "System Disaster Recovery Function Triggered",
@@ -995,7 +995,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_FLOW_RESTRICTION,
+    ET_FLOW_RESTR,
     T3004,
     "系统限流",
     "System Flow Restriction",
@@ -1003,7 +1003,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_FUNCTIONALITY_DOWNGRADED,
+    ET_FUNC_DOWNGRADED,
     T3005,
     "系统功能降级",
     "System Functionality Downgraded",
@@ -1011,7 +1011,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SYSTEM_RESOURCE_ANOMALY,
+    ET_SYSTEM_RES_ANOMALY,
     T3006,
     "系统资源异常",
     "System Resource Anomaly",
@@ -1019,7 +1019,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_RESOURCE_EXHAUSTED,
+    ET_RES_EXH,
     T3007,
     "系统资源耗尽",
     "System Resources Exhausted",
@@ -1027,7 +1027,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DISK_SPACE_EXHAUSTED,
+    ET_DISK_SPACE_EXH,
     T3008,
     "系统磁盘空间耗尽",
     "System Disk Space Exhausted",
@@ -1035,7 +1035,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MEMORY_EXHAUSTED,
+    ET_MEMORY_EXH,
     T3009,
     "系统内存耗尽",
     "System Memory Exhausted",
@@ -1043,7 +1043,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_FILE_HANDLES_EXHAUSTED,
+    ET_FILE_HANDLES_EXH,
     T3010,
     "文件句柄耗尽",
     "File Handles Exhausted",
@@ -1051,7 +1051,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CONNECTION_POOL_EXHAUSTED,
+    ET_CONNION_POOL_EXH,
     T3011,
     "系统连接池耗尽",
     "System Connection Pool Exhausted",
@@ -1059,7 +1059,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THREAD_POOL_EXHAUSTED,
+    ET_THREAD_POOL_EXH,
     T3012,
     "系统线程池耗尽",
     "System Thread Pool Exhausted",
@@ -1067,7 +1067,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_RESOURCE_ACCESS_ANOMALY,
+    ET_RES_ACCESS_ANOMALY,
     T3013,
     "系统资源访问异常",
     "System Resource Access Anomaly",
@@ -1075,7 +1075,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_READ_DISK_FILE_FAILED,
+    ET_READ_DISK_FILE_FAIL,
     T3014,
     "系统读取磁盘文件失败",
     "System Failed To Read Disk File",
@@ -1083,7 +1083,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_ERROR_CALLING_THIRD_PARTY,
+    ET_ERROR_CALLING_3P,
     T3015,
     "调用第三方服务出错",
     "Error Calling Third-Party Service",
@@ -1091,7 +1091,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MIDDLEWARE_SERVICE,
+    ET_MIDDLEWARE_SERV,
     T3016,
     "中间件服务出错",
     "Middleware Service Error",
@@ -1099,7 +1099,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_RPC_SERVICE,
+    ET_RPC_SERV,
     T3017,
     "RPC服务出错",
     "RPC Service Error",
@@ -1107,7 +1107,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_RPC_SERVICE_NOT_FOUND,
+    ET_RPC_SERV_NOT_FOUND,
     T3018,
     "RPC服务未找到",
     "RPC Service Not Found",
@@ -1115,7 +1115,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_RPC_SERVICE_NOT_REGISTERED,
+    ET_RPC_SERV_NOT_REG,
     T3019,
     "RPC服务未注册",
     "RPC Service Not Registered",
@@ -1131,7 +1131,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_SERVICE,
+    ET_MSG_SERV,
     T3021,
     "消息服务出错",
     "Message Service Error",
@@ -1139,7 +1139,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_DELIVERY,
+    ET_MSG_DELIVERY,
     T3022,
     "消息投递出错",
     "Message Delivery Error",
@@ -1147,7 +1147,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_CONSUMPTION,
+    ET_MSG_CONSUMPTION,
     T3023,
     "消息消费出错",
     "Message Consumption Error",
@@ -1155,7 +1155,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_SUBSCRIPTION,
+    ET_MSG_SUBSCRIPTION,
     T3024,
     "消息订阅出错",
     "Message Subscription Error",
@@ -1163,7 +1163,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_GROUP_NOT_FOUND,
+    ET_MSG_GROUP_NOT_FOUND,
     T3025,
     "消息分组未查到",
     "Message Group Not Found",
@@ -1171,7 +1171,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CACHE_SERVICE,
+    ET_CACHE_SERV,
     T3026,
     "缓存服务出错",
     "Cache Service Error",
@@ -1179,7 +1179,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_KEY_LENGTH_EXCEEDS_LIMIT,
+    ET_KEY_LENGTH_EXCDS_LIM,
     T3027,
     "key长度超过限制",
     "Key Length Exceeds Limit",
@@ -1187,7 +1187,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VALUE_LENGTH_EXCEEDS_LIMIT,
+    ET_VALUE_LENGTH_EXCDS_LIM,
     T3028,
     "value长度超过限制",
     "Value Length Exceeds Limit",
@@ -1195,7 +1195,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_STORAGE_CAPACITY_FULL,
+    ET_STORAGE_CAP_FULL,
     T3029,
     "存储容量已满",
     "Storage Capacity Full",
@@ -1211,7 +1211,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CONFIGURATION_SERVICE,
+    ET_CFG_SERV,
     T3031,
     "配置服务出错",
     "Configuration Service Error",
@@ -1219,7 +1219,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_NETWORK_RESOURCE_SERVICE,
+    ET_NETWORK_RES_SERV,
     T3032,
     "网络资源服务出错",
     "Network Resource Service Error",
@@ -1227,7 +1227,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VPN_SERVICE,
+    ET_VPN_SERV,
     T3033,
     "VPN服务出错",
     "VPN Service Error",
@@ -1235,7 +1235,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CDN_SERVICE,
+    ET_CDN_SERV,
     T3034,
     "CDN服务出错",
     "CDN Service Error",
@@ -1243,7 +1243,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DOMAIN_NAME_RESOLUTION_SERVICE,
+    ET_DNS_SERV,
     T3035,
     "域名解析服务出错",
     "Domain Name Resolution Service Error",
@@ -1251,7 +1251,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_GATEWAY_SERVICE,
+    ET_GW_SERV,
     T3036,
     "网关服务出错",
     "Gateway Service Error",
@@ -1259,7 +1259,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THIRD_PARTY_TIMEOUT,
+    ET_3P_TIMEOUT,
     T3037,
     "第三方系统执行超时",
     "Third-Party System Execution Timeout",
@@ -1275,7 +1275,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MESSAGE_DELIVERY_TIMEOUT,
+    ET_MSG_DELIVERY_TIMEOUT,
     T3039,
     "消息投递超时",
     "Message Delivery Timeout",
@@ -1291,7 +1291,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_CONFIGURATION_TIMEOUT,
+    ET_CFG_TIMEOUT,
     T3041,
     "配置服务超时",
     "Configuration Service Timeout",
@@ -1299,7 +1299,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DATABASE_TIMEOUT,
+    ET_DB_TIMEOUT,
     T3042,
     "数据库服务超时",
     "Database Service Timeout",
@@ -1307,7 +1307,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DATABASE_SERVICE,
+    ET_DB_SERV,
     T3043,
     "数据库服务出错",
     "Database Service Error",
@@ -1323,7 +1323,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_COLUMN_NOT_EXIST,
+    ET_COL_NOT_EXIST,
     T3045,
     "列不存在",
     "Column Does Not Exist",
@@ -1339,7 +1339,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_MULTIPLE_IDENTICAL_COLUMN_NAMES,
+    ET_MULT_IDENTICAL_COLS,
     T3047,
     "多表关联中存在多个相同名称的列",
     "Multiple Identical Column Names In Multi-Table Association",
@@ -1347,7 +1347,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_DATABASE_DEADLOCK,
+    ET_DB_DEADLOCK,
     T3048,
     "数据库死锁",
     "Database Deadlock",
@@ -1355,7 +1355,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_PRIMARY_KEY_CONFLICT,
+    ET_PRI_KEY_CONFLICT,
     T3049,
     "主键冲突",
     "Primary Key Conflict",
@@ -1363,7 +1363,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THIRD_PARTY_DISASTER_RECOVERY_TRIGGERED,
+    ET_3P_DISASTER_RECOV_TRIG,
     T3050,
     "第三方容灾系统被触发",
     "Third-Party Disaster Recovery System Triggered",
@@ -1371,7 +1371,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THIRD_PARTY_FLOW_RESTRICTED,
+    ET_3P_FLOW_RESTR,
     T3051,
     "第三方系统限流",
     "Third-party System Flow Restriction",
@@ -1379,7 +1379,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_THIRD_PARTY_FUNCTIONALITY_DOWNGRADED,
+    ET_3P_FUNC_DOWNGRADED,
     T3052,
     "第三方功能降级",
     "Third-party Functionality Downgrade",
@@ -1387,7 +1387,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_NOTIFICATION_SERVICE,
+    ET_NOTIF_SERV,
     T3053,
     "通知服务出错",
     "Notification Service Error",
@@ -1395,7 +1395,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_SMS_REMINDER_FAILURE,
+    ET_SMS_REMINDER_FAIL,
     T3054,
     "短信提醒服务失败",
     "SMS Reminder Service Failure",
@@ -1403,7 +1403,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_VOICE_REMINDER_FAILURE,
+    ET_VOICE_REMINDER_FAIL,
     T3055,
     "语音提醒服务失败",
     "Voice Reminder Service Failure",
@@ -1411,7 +1411,7 @@ const_errtype!(
 );
 
 const_errtype!(
-    ET_EMAIL_REMINDER_FAILURE,
+    ET_EMAIL_REMINDER_FAIL,
     T3056,
     "邮件提醒服务失败",
     "Email Reminder Service Failure",
